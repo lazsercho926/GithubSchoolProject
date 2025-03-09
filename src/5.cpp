@@ -1,0 +1,13 @@
+// A simple C++ program to demonstrate a function returning an int
+#include <iostream>
+using namespace std;
+
+int sum(int a, int b) {
+  return a + b;
+}
+
+int main() {
+  int result = sum(4, 5);
+  cout << "The sum is: " << result << endl;
+  return 0;
+}
